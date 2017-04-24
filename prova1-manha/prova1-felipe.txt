@@ -1,0 +1,64 @@
+Aluno: (Coloque aqui o seu nome e matricula)
+Prova de Laboratorio de Sistemas Operacionais
+Professor: Alex Salgado
+1o. Semestre de 2017   Turno: ????            AV1
+--------------------------------------------------
+Com relação aos comandos do SO Linux, responda as perguntas abaixo:
+
+
+1 - Quais são as quatro liberdades básicas associadas ao software livre?
+Resposta: liberdade de executar programas para qualquer proposito
+liberdade de adaptar as necessidades
+liberdade de redestribuir copias
+liberdade de mudar os programas  distribuir copias modificadas
+
+2 - Qual o comando linux para mostrar todos os arquivos vazios da pasta atual?
+Resposta: find . -empty 
+
+3 - Renomear o arquivo prova1-2017.txt da sua pasta para prova1-seunome.txt . 
+Ex.: prova1-alex.txt
+Resposta (Qual comando você utilizou?): mv prova1-2017.txt prova1-felipe.txt
+
+
+4 - Crie 3 arquivos em branco que comecem com seu nome e termina com uma 
+sequencia 1, 2 e 3. 
+Ex.: alex1.txt, alex2.txt, alex3.txt. Que comandos você utilizou?
+Resposta: cat > felipe1.txt
+cat > felipe2.txt
+cat> felipe3.txt
+
+5 - Crie 1 pasta com seu nome+diadenascimento (ex.:alex25) e copie os 
+3 arquivos criandos anteriormente para esta pasta.
+Resposta: mkdir felipe12
+cp felipe1.txt -r felipe12
+cp felipe2.txt -r felipe12
+cp felipe3.txt -r felipe12
+
+6 - Utilizando wildcards, qual o comando para listar todos os arquivos 
+que comecem com seu nome e termina com o numeral de 1 a 3 com extensão .txt?
+Resposta:
+
+7 - Existe um arquivo chamado access.log na sua pasta log. 
+Qual é o ip que aparece no arquivo com mais frequencia e 
+qual ip que aparece no arquivo com menos frequencia?
+Resposta 1 :uniq -d access.log  101.163.230.250
+
+Resposta 2 (qual comando você utilizou? ):
+
+
+8 - Usando um comando linux, baixar o arquivo a seguir na sua 
+pasta principal http://evc-cit.info/cit052/grepdata.txt
+Resposta 1 (qual comando você utilizou?): wget http://evc-cit.info/cit052/grepdata.txt
+
+
+9 - Com relação ao arquivo baixado no item anterior: Listar 
+todas as linhas que contêm um endereço de e-mail 
+(eles têm um @ neles), precedido pelo número da linha.
+Resposta:
+
+
+10 - Listar todo o conteudo (todos os arquivos e pastas)
+a partir de sua pasta principal e direcionar a saida 
+para o segundo arquivo do item 4.
+Resposta (comando utilizado): ls -R > felipe2.txt 
+
